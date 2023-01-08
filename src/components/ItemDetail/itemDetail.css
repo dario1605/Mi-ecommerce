@@ -1,0 +1,40 @@
+.contenedor__itemDetail{
+    width: 98%;
+    margin: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .contenedor__itemDetail{
+        width: 70%;
+    }
+}
+
+.itemDetail{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemDetail__imagen{
+    width: 100%;
+}
+
+.itemDetail__descripcion{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .itemDetail__imagen{
+        width: 50%;
+    }
+    .itemDetail__descripcion{
+        width: 50%;
+        padding-left: 2rem;
+    }
+}
